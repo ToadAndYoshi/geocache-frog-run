@@ -1203,7 +1203,7 @@ froggingLoverImage = img`
     . . . . f f f f f f f f . . . . 
     `
 isOnLog = false
-game.splash("Geocaching Frog Run")
+game.showLongText("Geocaching Frog Run -ToadAndYoshi", DialogLayout.Full)
 game.setDialogCursor(froggingImage)
 game.showLongText("Dodge Cars, Jump Onto Turtles and Logs to Reach the Geocache!", DialogLayout.Center)
 game.setDialogCursor(emptyNestImage)
