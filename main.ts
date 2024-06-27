@@ -592,7 +592,7 @@ function playerLandedOnANest (aLandedNest: Sprite) {
     }
     if (allNestsFilled) {
         clearFilledNests()
-        game.showLongText("Geocache Coordinates: NXX XX.XXX WXX XX.XXX Keep Playing for a High Score!", DialogLayout.Center)
+        game.showLongText("Geocache Coordinates: N45 2.162 W93 11.469 Keep Playing for a High Score!", DialogLayout.Center)
     }
     placePlayerAtStart()
 }
