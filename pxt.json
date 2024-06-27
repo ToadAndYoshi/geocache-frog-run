@@ -1,0 +1,33 @@
+{
+    "name": "Geocache Frog Run",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.8",
+        "animation": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.9.2",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "color-coded-tilemap": "*",
+        "Sprite Grid": "github:microsoft/arcade-grid#a93bcb8890b94cb4e3c3577d1cac0f895f0337d0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "controller": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.53",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
